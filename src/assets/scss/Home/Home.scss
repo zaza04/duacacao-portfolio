@@ -84,22 +84,6 @@
     &__box {
       padding: 70px 40px;
     }
-
-    &__logo {
-      margin-bottom: 50px;
-    }
-
-    &__greeting {
-      margin-bottom: 50px;
-    }
-
-    &__sub {
-      margin-bottom: 50px;
-    }
-
-    .social {
-      margin-bottom: 50px;
-    }
   }
 }
 
@@ -107,34 +91,42 @@
   .home {
 
     &__box {
-      padding: 70px 40px;
+      padding: 45px 35px;
     }
 
     &__logo {
-      width: 200px; 
-      height: 200px;
+      margin-bottom: 30px;
+      width: 170px; 
+      height: 170px;
     }
 
     &__greeting {
-      font-size: 28px;
+      font-size: 25px;
+      margin-bottom: 30px;
     }
 
     &__sub {
-      font-size: 14px;
+      font-size: 13px;
+      margin-bottom: 30px;
     }
 
     .social {
+      margin-bottom: 30px;
 
-      & a {
-        & svg {
-          width: 30px;
-          height: 30px;
+      &__item {
+        margin: 0 10px;
+
+        & a {
+          & svg {
+            width: 28px;
+            height: 28px;
+          }
         }
       }
     }
 
     &__contact {
-      font-size: 14px;
+      font-size: 13px;
     }
   }
 }
