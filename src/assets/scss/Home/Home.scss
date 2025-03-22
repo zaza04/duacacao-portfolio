@@ -89,9 +89,10 @@
 
 @media screen and (max-width: 575.98px) {
   .home {
+    width: auto;
 
     &__box {
-      padding: 45px 35px;
+      padding: 45px 30px;
     }
 
     &__logo {

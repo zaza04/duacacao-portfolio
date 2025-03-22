@@ -12,7 +12,7 @@ import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 function Home() {
   return (
     <>
-      <div id="home" className="home section">
+      <section id="home" className="home section">
         <Container>
           <Row className="justify-content-center">
             <Col xl={12} lg={12}>
@@ -55,7 +55,7 @@ function Home() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </section>
     </>
   )
 }

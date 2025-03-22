@@ -11,7 +11,7 @@ function App() {
   return (
     <> 
       
-      <div className="mode light-mode">
+      <div data-theme="dark-mode" className="mode light-mode">
         <Header />
         <Home />
         <About />
