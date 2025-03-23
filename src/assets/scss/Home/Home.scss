@@ -1,9 +1,10 @@
-@import "../../scss/variables";
+@import "../variables.scss";
 
 .home {
   position: relative;
   min-height: 100vh;
-  display: flex;
+  @include display-flex();
+  justify-content: center;
   align-items: center;
 
   &__box {

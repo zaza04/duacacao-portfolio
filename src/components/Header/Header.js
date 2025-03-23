@@ -1,7 +1,9 @@
+// SCSS
 import "../../assets/scss/Header/Header.scss";
-import logo from "../../assets/images/teddy.png";
 // HOOK REACTJS
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+// IMAGES
+import logo from "../../assets/images/teddy.png";
 // ICON
 import { MdLightMode, MdDarkMode  } from "react-icons/md";
 import { AiFillHome } from "react-icons/ai";
@@ -22,7 +24,7 @@ function Header() {
 
   return (
     <> 
-      <aside className={`aside ${isShowNav === true ? "aside-show" : ""}`}>
+      <aside className={`aside ${isShowNav ? "aside-show" : ""}`}>
         <a href="#logo" className="nav__logo">
           <img src={logo} alt="avatar" />
         </a>
@@ -56,13 +58,13 @@ function Header() {
           </ul>
         </div>
         <a href="#mode" className="nav__mode">
-          { mode === true ? 
+          { mode ? 
             <MdLightMode className="mode" onClick={handleClickMode} /> :
             <MdDarkMode className="mode" onClick={handleClickMode} />
           }
         </a>
       </aside>
-      <div id="sidebar" className={`sidebar ${isShowNav === true ? "sidebar-open" : ""}`} onClick={handleSideBar}>
+      <div id="sidebar" className={`sidebar ${isShowNav ? "sidebar-open" : ""}`} onClick={handleSideBar}>
         <FaBars />
       </div>
     </>
