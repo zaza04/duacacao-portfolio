@@ -46,7 +46,7 @@ function Header() {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#skills">
+              <a href="#skill">
                 <FaCode />
               </a>
             </li>

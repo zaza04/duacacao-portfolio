@@ -3,7 +3,7 @@ import About from './components/About/About';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Journey from './components/Journey/Journey';
-import Skills from "./components/Skills/Skills";
+import Skill from "./components/Skill/Skill";
 import Projects from "./components/Projects/Projects";
 import Footer from './components/Footer/Footer';
 
@@ -16,7 +16,7 @@ function App() {
         <Home />
         <About />
         <Journey />
-        <Skills />
+        <Skill />
         <Projects />
         <Footer />
       </div>

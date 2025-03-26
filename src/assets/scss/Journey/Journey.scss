@@ -1,4 +1,4 @@
-@import "../variables.scss";
+@import "../_variables.scss";
 
 .journey {
   padding-top: 80px;
@@ -6,7 +6,6 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  // align-items: center;
 
   &__title {
     padding: 0;
@@ -101,9 +100,6 @@
 
 @media screen and (max-width: 575.98px) {
   .journey {
-    padding: 0;
-    @include display-flex();
-    justify-content: center;
 
     &__title {
       font-size: $h2-font-size;

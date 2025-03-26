@@ -1,7 +1,10 @@
 function Footer() {
   return (
     <>
-      Footer
+       <section id="skills" className="container" style={{
+        backgroundColor: "lightpoppins",
+        height: "20vh"
+      }}>Footer</section>
     </>
   )
 }

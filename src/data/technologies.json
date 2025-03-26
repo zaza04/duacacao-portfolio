@@ -1,0 +1,99 @@
+[{
+        "techID": 1,
+        "techIcon": "devicon-react-original colored",
+        "techName": "React",
+        "techCategory": "Library/Framework",
+        "techURL": "https://reactjs.org/"
+    },
+    {
+        "techID": 2,
+        "techIcon": "devicon-bootstrap-plain colored",
+        "techName": "Bootstrap",
+        "techCategory": "Library/Framework",
+        "techURL": "https://getbootstrap.com/"
+    },
+    {
+        "techID": 3,
+        "techIcon": "devicon-cplusplus-plain colored",
+        "techName": "C++",
+        "techCategory": "Languages",
+        "techURL": "https://isocpp.org/"
+    },
+    {
+        "techID": 4,
+        "techIcon": "devicon-javascript-plain colored",
+        "techName": "Javascript",
+        "techCategory": "Languages",
+        "techURL": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+        "techID": 5,
+        "techIcon": "devicon-html5-plain colored",
+        "techName": "HTML",
+        "techCategory": "Languages",
+        "techURL": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+        "techID": 6,
+        "techIcon": "devicon-css3-plain colored",
+        "techName": "CSS",
+        "techCategory": "Languages",
+        "techURL": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+        "techID": 7,
+        "techIcon": "devicon-git-plain colored",
+        "techName": "Git",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://git-scm.com/"
+    },
+    {
+        "techID": 8,
+        "techIcon": "devicon-github-original colored",
+        "techName": "Github",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://github.com/"
+    },
+    {
+        "techID": 9,
+        "techIcon": "devicon-vercel-original-wordmark colored",
+        "techName": "Vercel",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://vercel.com/"
+    },
+    {
+        "techID": 10,
+        "techIcon": "devicon-figma-plain colored",
+        "techName": "Figma",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://www.figma.com/"
+    },
+    {
+        "techID": 11,
+        "techIcon": "devicon-mysql-original colored",
+        "techName": "MySQL",
+        "techCategory": "Databases",
+        "techURL": "https://www.mysql.com/"
+    },
+    {
+        "techID": 12,
+        "techIcon": "devicon-microsoftsqlserver-plain-wordmark colored",
+        "techName": "SQLServer",
+        "techCategory": "Databases",
+        "techURL": "https://www.microsoft.com/en-us/sql-server/sql-server-2019"
+    },
+    {
+        "techID": 13,
+        "techIcon": "devicon-postman-plain colored",
+        "techName": "Postman",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://www.postman.com/"
+    },
+    {
+        "techID": 14,
+        "techIcon": "devicon-tailwindcss-original colored",
+        "techName": "Tailwindcss",
+        "techCategory": "Library/Framework",
+        "techURL": "https://tailwindcss.com/"
+    }
+]
