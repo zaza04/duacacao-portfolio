@@ -1,0 +1,100 @@
+@import "../../_variables";
+
+.project {
+  &__item {
+    padding: 30px;
+    box-shadow: $shadow-box;
+    margin-bottom: 15px;
+    border-radius: 15px;
+  }
+  
+  &__name {
+    margin: 0;
+  }
+  
+  .tech {
+    &__list {
+      @include display-flex();
+      justify-content: left;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: .5rem;
+      width: 100%;
+      margin: 15px 0;
+    }
+
+    &__item {
+      font-size: $small-font-size;
+      color: $text-color;
+    }
+  }
+  
+  &__desc {
+    margin-bottom: 20px
+  }
+  
+  &__link {
+    @include display-flex();
+    justify-content: space-between;
+  
+    .icon {
+      @include display-flex();
+      justify-content: center;
+  
+      i {
+        font-size: 30px;
+        transition: .3s ease;
+      }
+  
+      &:hover i {
+        color: $third-color;
+      }
+    }
+  
+    .read-more {
+      display: inline-flex;
+      align-items: center;
+      column-gap: 5px;
+      cursor: pointer;
+  
+      span {
+        font-size: 18px;
+        transition: .3s ease-in-out;
+      }
+  
+      &:hover {
+        text-decoration: underline;
+  
+        span {
+          transform: translate(5px);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .project {
+    &__name {
+      font-size: 17px;
+    }
+
+    .tech {
+      &__item {
+        font-size: 11px;
+      }
+    }
+
+    &__desc {
+      font-size: $small-font-size;
+    }
+
+    .read-more {
+      font-size: 15px;
+
+      span {
+        font-size: 15px;
+      }
+    }
+  }
+}

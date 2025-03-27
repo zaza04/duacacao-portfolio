@@ -48,7 +48,7 @@ function Home() {
                     </a>
                   </li>
                 </ul>
-                <a className="home__contact" href="#">
+                <a className="home__contact" href="https://drive.google.com/file/d/1fbZBrx77TxaGkEjpcxyR4q2RYxjsNJL9/view?usp=drive_link" target="_blank">
                   This is my CV
                 </a>
               </div>

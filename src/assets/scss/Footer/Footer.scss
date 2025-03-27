@@ -1,0 +1,36 @@
+@import "../_variables.scss";
+
+.footer {
+  min-height: 20vh;
+  padding: 30px 0;
+  text-align: center;
+
+  .icon {
+    display: inline-block;
+    margin-bottom: 30px;
+
+    i {
+      font-size: $h1-font-size;
+      transition: color .3s ease;
+    }
+
+    &:hover i {
+      color: $third-color;
+    }
+  }
+}
+
+.seperated {
+  border-top: 1px solid $second-color;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 575.98px) {
+  .footer {
+    &__text {
+      font-size: $small-font-size;
+    }
+  }
+}

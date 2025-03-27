@@ -1,10 +1,11 @@
 import './App.scss';
-import About from './components/About/About';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import About from './components/About/About';
 import Journey from './components/Journey/Journey';
 import Skill from "./components/Skill/Skill";
-import Projects from "./components/Projects/Projects";
+import Project from "./components/Project/Project";
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <About />
         <Journey />
         <Skill />
-        <Projects />
+        <Project />
+        <Contact />
         <Footer />
       </div>
 

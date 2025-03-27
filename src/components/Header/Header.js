@@ -1,7 +1,7 @@
 // SCSS
 import "../../assets/scss/Header/Header.scss";
 // HOOK REACTJS
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 // IMAGES
 import logo from "../../assets/images/teddy.png";
 // ICON
@@ -51,7 +51,7 @@ function Header() {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#projects">
+              <a href="#project">
                 <FaFolderOpen />
               </a>
             </li>

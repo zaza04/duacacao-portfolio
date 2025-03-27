@@ -1,0 +1,55 @@
+@import "../_variables";
+
+.project {
+  min-height: 100vh;
+  padding: 60px 0;
+
+  &__title {
+    margin-bottom: 50px;
+    margin-left: 15px;
+    padding: 0;
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  &__heading {
+    grid-area: 1 / 1 / auto / 4;
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  &__list {
+    grid-area: 1 / 4 / auto / 12;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  
+  .project {
+    &__box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__heading {
+      padding-top: 0;
+      padding-bottom: 30px;
+    }
+      
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .project {
+    &__title {
+      font-size: $h2-font-size;
+    }
+
+    &__heading {
+      font-size: $h3-font-size; 
+    }
+  }
+}

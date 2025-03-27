@@ -1,0 +1,38 @@
+[
+    {
+        "projectID": 1,
+        "projectTitle": "D2P Food",
+        "projectImage": "",
+        "projectDescription": "Landing Pages. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "projectTechnologies": ["HTML", "CSS", "Javascript"],
+        "projectTeamSize": "5",
+        "projectRole": "FullStack Web/Mobile Developer, Mobile Supporter",
+        "projectFeatures": [
+            "● ABC",
+            "● ABC",
+            "● ABC",
+            "● ABC",
+            "● ABC"
+        ],
+        "projectSource": "https://github.com/zaza04/d2p-food",
+        "projectLink": "https://www.d2p-food.vercel.app/"
+    }, 
+    {
+        "projectID": 2,
+        "projectTitle": "Project Name",
+        "projectImage": "project7.png",
+        "projectDescription": "My colleagues and I are working together to complete the HoaSen University app, which works on the similar idea as Tinder.",
+        "projectTechnologies": ["Flutter", "MySQL", ".NET", "C#", "Firecloud Storage", "Firebase RealTime Database", "Microservices", "Jira", "Figma", "JWT", "OAuth2"],
+        "projectTeamSize": "4",
+        "projectRole": "UX/UI Designer, Front-End Developer, Back-End Support",
+        "projectFeatures": [
+            "● Users can create profiles, set preferences, and swipe through potential matches based on mutual interests.",
+            "● Allows users to chat with their matches in real-time using Firebase RealTime Database.",
+            "● Sends notifications for new matches, messages, and other important updates.",
+            "● Uses location data to show nearby users and potential matches.",
+            "● Enables users to upload and share photos and media within their profiles and messages."
+        ],
+        "projectSource": "https://github.com/duyquan3112/do_an_thuc_tap_lap_trinh",
+        "projectLink": ""
+    }
+]

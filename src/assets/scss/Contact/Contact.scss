@@ -1,0 +1,47 @@
+@import "../_variables";
+
+.contact {
+  min-height: 50vh;
+  padding: 60px 0;
+
+  &__title {
+    margin-bottom: 50px;
+    margin-left: 15px;
+    padding: 0;
+  }
+
+  &__sub {
+    margin-bottom: 10px;
+  }
+
+  &__detail {
+    margin-bottom: 30px;
+  }
+
+  &__social {
+    color: $text-color;
+    font-weight: 500;
+    text-decoration: underline;
+    transition: color .3s ease;
+
+    &:hover {
+      color: $third-color;
+    }
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .contact {
+    &__title {
+      font-size: $h2-font-size;
+    }
+
+    &__detail {
+      font-size: $small-font-size;
+    }
+
+    &__social {
+      font-size: $small-font-size;
+    }
+  }
+}

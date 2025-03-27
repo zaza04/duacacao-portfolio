@@ -68,16 +68,16 @@ img {
 }
 /*============ END BASE ==========*/
 
-// RESPONSIVE 
+// RESPONSIVE
 
 @media screen and (min-width: 1200px) {
-  
   .container {
-    width: 1140px;
+    max-width: 1080px;
   }
 }
 
-@media screen and (max-width: 991.99px) {
+@media screen and (max-width: 1079.98px) {
+  
   body {
     margin: 0;
   }

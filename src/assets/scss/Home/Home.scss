@@ -3,13 +3,14 @@
 .home {
   position: relative;
   min-height: 100vh;
+  padding: 60px 0;
   @include display-flex();
   justify-content: center;
   align-items: center;
 
   &__box {
     text-align: center;
-    padding: 80px 50px;
+    padding: 70px 50px;
     border-radius: 15px;
     box-shadow: $shadow-box;
     background: #fff;
@@ -83,7 +84,19 @@
   .home {
 
     &__box {
-      padding: 70px 40px;
+      padding: 100px 50px;
+    }
+
+    &__logo {
+      margin-bottom: 50px;
+    }
+
+    &__greeting {
+      margin-bottom: 50px;
+    }
+
+    .social {
+      margin: 50px 0;
     }
   }
 }
