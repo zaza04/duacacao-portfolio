@@ -21,7 +21,6 @@
     &__logo {
       width: 55px;
       height: 55px;
-      // display: block;
       border-radius: 50%;
       overflow: hidden;
       border: 5px solid $second-color;
@@ -34,7 +33,7 @@
     &__list {
       @include display-flex;
       flex-direction: column;
-      row-gap: 20px;
+      row-gap: 15px;
     }
 
     &__item {
