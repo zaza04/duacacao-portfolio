@@ -1,18 +1,9 @@
 @import "../_variables.scss";
 
 .skill {
-  min-height: 100vh;
-  padding: 60px 0;
-
-  &__title {
-    margin-bottom: 50px;
-    margin-left: 15px;
-    padding: 0;
+  .custom-box {
+    flex-wrap: wrap;
   }
-}
-
-.custom-box {
-  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -22,13 +13,6 @@
 }
 
 @media screen and (max-width: 575.98px) {
-  .skill {
-
-    &__title {
-      font-size: $h2-font-size;
-    }
-  }
-
   .technology {
 
     &__name {

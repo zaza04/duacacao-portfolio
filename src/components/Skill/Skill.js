@@ -17,7 +17,7 @@ function Skill() {
         <Container>
             <Row>
               <Col>
-                <h1 className="skill__title">What I can do</h1>
+                <h1 className="section__title">What I can do</h1>
               </Col>
             </Row>
             <Row className="mb-5">

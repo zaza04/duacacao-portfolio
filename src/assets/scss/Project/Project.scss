@@ -1,14 +1,6 @@
 @import "../_variables";
 
 .project {
-  min-height: 100vh;
-  padding: 60px 0;
-
-  &__title {
-    margin-bottom: 50px;
-    margin-left: 15px;
-    padding: 0;
-  }
 
   &__box {
     display: grid;
@@ -44,10 +36,6 @@
 
 @media screen and (max-width: 575.98px) {
   .project {
-    &__title {
-      font-size: $h2-font-size;
-    }
-
     &__heading {
       font-size: $h3-font-size; 
     }

@@ -1,124 +1,26 @@
 @import "../_variables.scss";
 
 .journey {
-  padding-top: 80px;
-  padding-bottom: 40px;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-
-  &__title {
-    padding: 0;
-    margin-bottom: 50px;
-    margin-left: 15px;
-  }
 
   &__timeline {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__study {
     background: #fff;
     border-radius: 15px;
     padding: 30px;
     box-shadow: $shadow-box;
-    position: relative;
-    z-index: 1;
+  }
 
-    .timeline {
-      &__item {
-        @include display-flex();
-        justify-content: left;
-        align-items: normal;
-        position: relative;
-        z-index: 1;
-      }
-
-      &__icon {
-        position: relative;
-        color: #ff4d61;
-        font-size: $h2-font-size;
-        overflow: hidden;
-
-        &::before {
-          content: "";
-          position: absolute;
-          background: #000;
-          width: .5px;
-          top: 30px;
-          left: calc(100% / 2);
-          height: 100%;
-          z-index: 2;
-        }
-
-        svg {
-          @include display-flex();
-          justify-content: center;
-        }
-      }
-
-      &__description {
-        margin-left: 30px;
-      }
-
-      &__name {
-        font-size: 25px;
-        margin-bottom: 30px;
-      }
-
-      &__date {
-        font-weight: 400;
-        color: #8b88b1;
-        position: absolute;
-        right: 5px;
-        top: 5px;
-        overflow: hidden;
-        z-index: 2;
-      }
-
-      &__text {
-        font-size: $text-font-size;
-        color: $text-color;
-        font-weight: 500;
-
-        .item {
-          margin-bottom: 5px;
-        }
-      }
-    }
+  &__work {
+    // margin-top: 30px;
+    // background: #fff;
+    // border-radius: 15px;
+    // padding: 30px;
+    // box-shadow: $shadow-box;
   }
 }
 
-@media screen and (max-width: 767.98px) {
-
-  .timeline {
-    &__name {
-      font-size: $h3-font-size !important;
-    }
-
-    &__date {
-      font-size: $small-font-size;
-    }
-  }
-}
-
-@media screen and (max-width: 575.98px) {
-  .journey {
-
-    &__title {
-      font-size: $h2-font-size;
-    }
-
-    .timeline {
-      &__name {
-        margin-bottom: 50px;
-      }
-
-      &__text {
-        font-size: $small-font-size;
-      }
-
-      &__date {
-        left: 55px;
-        top: 35px;
-      }
-    }
-  }
-}
 

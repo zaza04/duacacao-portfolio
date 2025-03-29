@@ -1,0 +1,93 @@
+@import "../../_variables.scss";
+
+.journey {
+  &__timeline {
+    .timeline {
+      &__item {
+        @include display-flex();
+        justify-content: left;
+        align-items: normal;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 10px;
+      }
+
+      &__icon {
+        position: relative;
+        z-index: 1;
+        color: #ff4d61;
+        font-size: $h2-font-size;
+
+        &::before {
+          content: "";
+          position: absolute;
+          background: #000;
+          width: .5px;
+          top: 30px;
+          left: calc(100% / 2);
+          height: 90%;
+          z-index: 2;
+        }
+
+        svg {
+          @include display-flex();
+          justify-content: center;
+        }
+      }
+
+      &__description {
+        margin-left: 30px;
+      }
+
+      &__name {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+
+      &__date {
+        font-weight: 400;
+        color: #8b88b1;
+        margin-bottom: 30px;
+      }
+
+      &__text {
+        font-size: $text-font-size;
+        color: $text-color;
+        font-weight: 500;
+
+        .item {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+
+  .timeline {
+    &__name {
+      font-size: $h3-font-size !important;
+    }
+
+    &__date {
+      font-size: $small-font-size;
+    }
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .journey {
+
+    &__title {
+      font-size: $h2-font-size;
+    }
+
+    .timeline {
+
+      &__text {
+        font-size: $small-font-size;
+      }
+    }
+  }
+}

@@ -14,7 +14,7 @@ function About() {
       <Container>
         <Row>
           <Col lg={12}>
-            <h1 className="about__title">Explore my story</h1>
+            <h1 className="section__title">Explore my story</h1>
           </Col>
         </Row>
         <Row className="justify-content-center">

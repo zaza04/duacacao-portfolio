@@ -13,7 +13,7 @@ function Footer() {
           <Row>
             <Col>
               <div className="seperated"></div>
-              <a className="icon" href="https://github.com/zaza04"><i class="devicon-github-original colored"></i></a>
+              <a className="icon" href="https://github.com/zaza04" target="_blank"><i className="devicon-github-original colored"></i></a>
               <p className="footer__text">
                 Built by Nguyen Tien Phong with ReactJS and JavaScript.
                 <br/>

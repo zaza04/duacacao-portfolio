@@ -5,10 +5,15 @@ import Col from 'react-bootstrap/Col';
 // SCSS
 import "../../assets/scss/Journey/Journey.scss";
 // ICON
-import { SlGraduation } from "react-icons/sl";
-// IMAGES
+// import { SlGraduation, SlBriefcase } from "react-icons/sl";
+// DATA JSON
+import experience from "../../data/experience.json";
+// JOURNEY BOX
+import JourneyBox from './JourneyBox/JourneyBox';
 
 function Journey() {
+  // console.log(experience);
+
   return (
     <>
       <section id="journey" className="journey section">
@@ -16,31 +21,37 @@ function Journey() {
           <div className="journey__box">
             <Row>
               <Col lg={12}>
-                <h1 className="journey__title">Take a look at my journey</h1>
+                <h1 className="section__title">Take a look at my journey</h1>
               </Col>
             </Row>
             <Row className="justify-content-center">
               <Col lg={12}>
                 <div className='journey__timeline timeline'>
-                  <div className='timeline__item'>
-                    <div className='timeline__icon'>
-                      <SlGraduation />
-                    </div>
-                    <div className='timeline__description'>
-                      <h3 className='timeline__name'>
-                        Van Hien University
-                      </h3>
-                      <ul className='timeline__text'>
-                        <li className="item">Specialization:</li>
-                        <li className="item">● Software Engineering</li>
-                        <li className="item">● Algorithms & Data Structure</li>
-                        <li className="item">● Networking Security</li>
-                        <li className="item">● Web Design</li>
-                      </ul>
-                    </div>
-                    <p className='timeline__date'>
-                      09/2022 - Present
-                    </p>
+                  <div className='journey__study'>
+                    {(experience || []).filter((value) => value.experienceCategory === "Education")
+                      .map((item) => (
+                        <JourneyBox 
+                          key = {item.experienceID}
+                          icon = {item.experienceIcon}
+                          name = {item.experienceTitle}
+                          description = {item.experienceDescription}
+                          date = {item.experienceYear}
+                        />
+                      ))
+                    }
+                  </div>
+                  <div className='journey__work'>
+                    {(experience || []).filter((value) => value.experienceCategory === "Work")
+                      .map((item) => (
+                        <JourneyBox 
+                          key = {item.experienceID}
+                          icon = {item.experienceIcon}
+                          name = {item.experienceTitle}
+                          description = {item.experienceDescription}
+                          date = {item.experienceYear}
+                        />
+                      ))
+                    }
                   </div>
                 </div>
               </Col>

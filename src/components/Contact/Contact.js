@@ -12,7 +12,7 @@ function Contact() {
         <Container>
           <Row>
             <Col>
-              <h1 className="contact__title">Feel free to contact</h1>
+              <h1 className="section__title">Feel free to contact</h1>
             </Col>
           </Row>
           <Row>

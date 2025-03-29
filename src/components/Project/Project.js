@@ -20,7 +20,7 @@ function Project() {
         <Container>
           <Row>
             <Col>
-              <h1 className="project__title">Check out what I have built</h1>
+              <h1 className="section__title">Check out what I have built</h1>
             </Col>
           </Row>
           <Row>

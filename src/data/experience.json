@@ -1,0 +1,17 @@
+[{
+        "experienceID": 1,
+        "experienceCategory": "Education",
+        "experienceIcon": "SlGraduation",
+        "experienceYear": "Sep 2022 - Present",
+        "experienceTitle": "Van Hien University",
+        "experienceDescription": [
+            "Specialization :",
+            "● Software Engineering",
+            "● Algorithms & Data Structure",
+            "● Networking Security",
+            "● Web Design"
+        ]
+    },
+    {
+    }
+]

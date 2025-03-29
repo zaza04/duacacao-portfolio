@@ -66,6 +66,18 @@ img {
   max-height: 100%;
   object-fit: cover;
 }
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  min-height: 100vh;
+}
+
+.section__title {
+  padding: 0;
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
 /*============ END BASE ==========*/
 
 // RESPONSIVE
@@ -80,5 +92,11 @@ img {
   
   body {
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .section__title {
+    font-size: $h2-font-size;
   }
 }

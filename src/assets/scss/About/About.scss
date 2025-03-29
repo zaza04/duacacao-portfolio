@@ -1,18 +1,7 @@
 @import "../_variables.scss";
 
 .about {
-  padding-top: 80px;
-  padding-bottom: 40px;
   min-height: 70vh;
-  display: flex;
-  justify-content: center;
-  // align-items: center;
-
-  &__title {
-    padding: 0;
-    margin-bottom: 50px;
-    margin-left: 15px;
-  }
 
   &__content {
     @include display-flex();
@@ -64,14 +53,6 @@
 
 @media screen and (max-width: 575.98px) {
   .about {
-    padding: 0;
-    @include display-flex();
-    justify-content: center;
-
-    &__title {
-      font-size: 25px;
-    }
-
     &__text {
       p {
         font-size: $small-font-size;

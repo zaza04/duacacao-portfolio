@@ -2,7 +2,6 @@
 
 .home {
   position: relative;
-  min-height: 100vh;
   padding: 60px 0;
   @include display-flex();
   justify-content: center;
@@ -81,21 +80,10 @@
 // RESPONSIVE 
 @media screen and (max-width: 991.98px) {
   .home {
+    padding: 0;
 
     &__box {
-      padding: 100px 50px;
-    }
-
-    &__logo {
-      margin-bottom: 50px;
-    }
-
-    &__greeting {
-      margin-bottom: 50px;
-    }
-
-    .social {
-      margin: 50px 0;
+      padding: 60px 40px;
     }
   }
 }
@@ -105,7 +93,6 @@
     width: auto;
 
     &__box {
-      padding: 45px 30px;
     }
 
     &__logo {
@@ -128,7 +115,7 @@
       margin-bottom: 30px;
 
       &__item {
-        margin: 0 10px;
+        margin: 0 5px;
 
         & a {
           & svg {
