@@ -19,12 +19,12 @@
     }, 
     {
         "projectID": 2,
-        "projectTitle": "Project Name",
-        "projectImage": "project7.png",
+        "projectTitle": "Coco Portfolio",
+        "projectImage": "",
         "projectDescription": "My colleagues and I are working together to complete the HoaSen University app, which works on the similar idea as Tinder.",
-        "projectTechnologies": ["Flutter", "MySQL", ".NET", "C#", "Firecloud Storage", "Firebase RealTime Database", "Microservices", "Jira", "Figma", "JWT", "OAuth2"],
-        "projectTeamSize": "4",
-        "projectRole": "UX/UI Designer, Front-End Developer, Back-End Support",
+        "projectTechnologies": ["HTML", "SASS", "Javascript"],
+        "projectTeamSize": "1",
+        "projectRole": "UX/UI Designer, Front-End Developer",
         "projectFeatures": [
             "● Users can create profiles, set preferences, and swipe through potential matches based on mutual interests.",
             "● Allows users to chat with their matches in real-time using Firebase RealTime Database.",
@@ -32,7 +32,7 @@
             "● Uses location data to show nearby users and potential matches.",
             "● Enables users to upload and share photos and media within their profiles and messages."
         ],
-        "projectSource": "https://github.com/duyquan3112/do_an_thuc_tap_lap_trinh",
-        "projectLink": ""
+        "projectSource": "https://github.com/zaza04/coco-project",
+        "projectLink": "https://coco-delta.vercel.app/"
     }
 ]
