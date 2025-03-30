@@ -11,8 +11,8 @@
     text-align: center;
     padding: 70px 50px;
     border-radius: 15px;
-    box-shadow: $shadow-box;
-    background: #fff;
+    box-shadow: var(--shadow-box);
+    background: var(--background-color);
   }
 
   &__logo {
@@ -37,42 +37,42 @@
     @include display-flex();
     justify-content: center;
     margin: 30px 0;
+    gap: 15px;
 
     &__item {
-      margin: 0 10px;
 
       & a {
-       @include display-flex();
+        @include display-flex();
         padding: 10px;
         border-radius: 15px;
         overflow: hidden;
         transition: .3s;
 
         &:hover {
-          background: $third-color;
+          background: var(--third-color);
 
           svg {
-            color: $background-color;
+            color: var(--background-color);
           }
         }
 
         & svg {
           width: 35px;
           height: 35px;
-          color: $main-color;
+          color: var(--main-color);
         }
       }
     }
   }
 
   &__contact {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: underline;
     font-weight: 600;
     transition: color .3s ease;
 
     &:hover {
-      color: $third-color;
+      color: var(--third-color);
     }
   }
 }

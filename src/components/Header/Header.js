@@ -10,12 +10,13 @@ import { AiFillHome } from "react-icons/ai";
 import { FaUser, FaCode, FaFolderOpen, FaMapLocationDot, FaBars } from "react-icons/fa6";
 
 
-function Header() {
-  const [mode, setMode] = useState(false); // set mặc định sẽ là lightmode và icon sẽ hiện là darkIcon
+function Header({ setTheme }) {
+  const [isDarkMode, setIsDarkMode] = useState(false); // set mặc định sẽ là lightmode và icon sẽ hiện là darkIcon
   const [isShowNav, setIsShowNav] = useState(false); //set mặc định sẽ ẩn header
 
   const handleClickMode = () => {
-    setMode(!mode);
+    setIsDarkMode(prevMode => !prevMode);
+    setTheme();
   };
 
   const handleSideBar = () => {
@@ -57,8 +58,8 @@ function Header() {
             </li>
           </ul>
         </div>
-        <a href="#mode" className="nav__mode">
-          { mode ? 
+        <a href="#mode" className="nav__mode" data-theme={isDarkMode ? 'dark-mode' : 'light-mode'} onClick={e => e.preventDefault()}>
+          { isDarkMode ? 
             <MdLightMode className="mode" onClick={handleClickMode} /> :
             <MdDarkMode className="mode" onClick={handleClickMode} />
           }

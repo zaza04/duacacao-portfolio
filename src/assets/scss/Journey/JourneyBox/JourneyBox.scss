@@ -52,7 +52,7 @@
 
       &__text {
         font-size: $text-font-size;
-        color: $text-color;
+        color: var(--text-color);
         font-weight: 500;
 
         .item {

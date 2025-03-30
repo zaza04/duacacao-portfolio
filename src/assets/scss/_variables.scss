@@ -12,12 +12,24 @@ $text-font-size: 16px;
 $small-font-size: 13px;
 /*============ COLOR ==========*/
 $background-color: #F9F7FD;
+// $background-color-second: #ffffff;
 $main-color: #2c293d;
 $second-color: #dddddd;
 $third-color: #445ffa;
 $text-color: #5e5c7f;
 /*============ SHADOW ==========*/
 $shadow-box: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+
+/*============ DARK MODE ==========*/
+/*============ COLOR ==========*/
+$background-color-dark: hsl(0, 0%, 15%); 
+$main-color-dark:  hsl(0, 0%, 95%); 
+$second-color-dark: hsl(0, 0%, 40%); 
+$third-color-dark: hsl(195, 100%, 50%); 
+$text-color-dark: hsl(0, 0%, 80%); 
+/*============ SHADOW ==========*/
+$shadow-box-dark: 0px 5px 20px 0px rgb(255 255 255 / 15%);
 
 // MIXIN
 @mixin display-flex {

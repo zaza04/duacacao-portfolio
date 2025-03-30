@@ -3,7 +3,7 @@
 .project {
   &__item {
     padding: 30px;
-    box-shadow: $shadow-box;
+    box-shadow: var(--shadow-box);
     margin-bottom: 15px;
     border-radius: 15px;
   }
@@ -25,7 +25,7 @@
 
     &__item {
       font-size: $small-font-size;
-      color: $text-color;
+      color: var(--text-color);
     }
   }
   
@@ -44,10 +44,11 @@
       i {
         font-size: 30px;
         transition: .3s ease;
+        color: var(--main-color);
       }
   
       &:hover i {
-        color: $third-color;
+        color: var(--third-color);
       }
     }
   
@@ -96,8 +97,7 @@
     &-content {
       position: relative;
       padding: 50px 40px;
-      background-color: #fff;
-      box-shadow: $shadow-box;
+      background-color: var(--background-color);
       border-radius: 15px;
       overflow: hidden;
       max-width: 500px;
@@ -116,9 +116,10 @@
       border-radius: 50%;
       overflow: hidden;
       transition: .3s;
+      color: var(--main-color);
 
       &:hover {
-        background: $second-color;
+        background: var(--second-color);
       }
     }
 
@@ -144,7 +145,7 @@
     &-link {
       text-decoration: underline;
       font-size: 15px;
-      color: $text-color;
+      color: var(--text-color);
     }
 
     &-scroll {
@@ -153,7 +154,7 @@
       padding-right: 10px;
 
       li {
-        color: $text-color;
+        color: var(--text-color);
         font-size: 15px;
         font-weight: 500;
       }

@@ -1,15 +1,15 @@
-@import "../_variables.scss";
+@import "../variables";
 
 .aside {
   display: block;
-  background: $background-color;
+  background: var(--background-color);
   width: 110px;
   min-height: 100vh;
   position: fixed;
   z-index: 10;
   top: 0;
   left: 0;
-  border-right: 1px solid $second-color;
+  border-right: 1px solid var(--second-color);
   padding: 30px;
   @include display-flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
       height: 55px;
       border-radius: 50%;
       overflow: hidden;
-      border: 5px solid $second-color;
+      border: 5px solid var(--second-color);
 
       img {
         vertical-align: middle;
@@ -33,7 +33,7 @@
     &__list {
       @include display-flex;
       flex-direction: column;
-      row-gap: 15px;
+      row-gap: 10px;
     }
 
     &__item {
@@ -41,25 +41,25 @@
 
       a {
         @include display-flex;
-        color: $main-color;
+        color: var(--main-color);
         transition: color .3s ease;
         padding: 15px;
         border-radius: 15px;
 
         &:hover {
-          color: $third-color;
-          background: $second-color;
+          color: var(--third-color);
+          background: var(--second-color);
         }
       }
     }
 
     &__mode {
       font-size: 25px;
-      color: $main-color;
+      color: var(--main-color);
       transition: all .5s ease-in-out;
 
       &:hover {
-        color: $third-color;
+        color: var(--third-color);
       }
     }
   }
@@ -71,14 +71,14 @@
   left: 25px;
   z-index: 10;
   font-size: 22px;
-  color: $main-color;
-  border: 3px solid $second-color;
+  color: var(--main-color);
+  border: 3px solid var(--second-color);
   border-radius: 5px;
   padding: 5px 10px;
   cursor: pointer;
   display: none;
   transition: left .3s ease;
-  background: $background-color;
+  background: var(--background-color);
 }
 
 // RESPONSIVE 

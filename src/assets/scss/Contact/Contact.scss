@@ -12,13 +12,13 @@
   }
 
   &__social {
-    color: $text-color;
+    color: var(--text-color);
     font-weight: 500;
     text-decoration: underline;
     transition: color .3s ease;
 
     &:hover {
-      color: $third-color;
+      color: var(--third-color);
     }
   }
 }

@@ -10,8 +10,8 @@
   }
 
   &__text {
-    background: #fff;
-    box-shadow: $shadow-box;
+    background: var(--background-color);
+    box-shadow: var(--shadow-box);
     text-align: justify;
     padding: 50px 40px;
     border-radius: 15px;

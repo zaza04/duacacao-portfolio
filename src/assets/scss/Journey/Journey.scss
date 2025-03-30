@@ -8,10 +8,10 @@
   }
 
   &__study {
-    background: #fff;
+    background: var(--background-color);
     border-radius: 15px;
     padding: 30px;
-    box-shadow: $shadow-box;
+    box-shadow: var(--shadow-box);
   }
 
   &__work {

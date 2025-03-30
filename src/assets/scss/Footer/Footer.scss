@@ -12,16 +12,17 @@
     i {
       font-size: $h1-font-size;
       transition: color .3s ease;
+      color: var(--main-color);
     }
 
     &:hover i {
-      color: $third-color;
+      color: var(--third-color);
     }
   }
 }
 
 .seperated {
-  border-top: 1px solid $second-color;
+  border-top: 1px solid var(--second-color);
   width: 80%;
   margin: 0 auto;
   margin-bottom: 30px;
