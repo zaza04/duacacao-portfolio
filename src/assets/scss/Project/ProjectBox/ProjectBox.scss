@@ -98,7 +98,7 @@
     &-content {
       position: relative;
       padding: 50px 40px;
-      background-color: var(--background-color);
+      background-color: var(--box-color);
       border-radius: 15px;
       overflow: hidden;
       max-width: 500px;
@@ -144,9 +144,14 @@
     }
 
     &-link {
-      text-decoration: underline;
+      text-decoration: underline; 
       font-size: 15px;
       color: var(--text-color);
+      transition: .3s;
+
+      &:hover {
+        color: var(--third-color);
+      }
     }
 
     &-scroll {
