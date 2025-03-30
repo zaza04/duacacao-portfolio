@@ -21,7 +21,7 @@ function Home() {
                   <img src={logo} alt="logo"/>
                 </div>
                 <h1 className="home__greeting">
-                  Ayyo wassup man! I'm Duacacao
+                  Ayyo welcome to my portfolio! I'm Duacacao
                 </h1>
                 <p className="home__sub">
                   I'm a Front-End Developer

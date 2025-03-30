@@ -14,6 +14,7 @@ function Footer() {
             <Col>
               <div className="seperated"></div>
               <a className="icon" href="https://github.com/zaza04" target="_blank"><i className="devicon-github-original colored"></i></a>
+              <p className="version">v1.0</p>
               <p className="footer__text">
                 Built by Nguyen Tien Phong with ReactJS and JavaScript.
                 <br/>

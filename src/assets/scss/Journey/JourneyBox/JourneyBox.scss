@@ -21,7 +21,7 @@
         &::before {
           content: "";
           position: absolute;
-          background: #000;
+          background: var(--main-color);
           width: .5px;
           top: 30px;
           left: calc(100% / 2);

@@ -7,7 +7,7 @@
 
   .icon {
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 
     i {
       font-size: $h1-font-size;
@@ -18,6 +18,13 @@
     &:hover i {
       color: var(--third-color);
     }
+  }
+
+  .version {
+    color: #9b98b3;
+    font-size: $small-font-size;
+    margin-bottom: 20px;
+    font-weight: 500;
   }
 }
 

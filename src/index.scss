@@ -3,24 +3,29 @@
 /*============ LIGHT MODE ==========*/
 :root {
   --background-color: #{$background-color};
-  // --background-color-second: #{$background-color-second};
+  --box-color: #{$box-color};
   --main-color: #{$main-color};
   --second-color: #{$second-color};
   --third-color: #{$third-color};
+  --fourth-color: #{$fourth-color};
   --text-color: #{$text-color};
   --shadow-box: #{$shadow-box};
+  --shadow-box-tech: #{$shadow-box-tech};
 }
 
 /*============ DARK MODE ==========*/
 [data-theme = "dark-mode"] {
   /*============ COLOR ==========*/
   --background-color: #{$background-color-dark};
+  --box-color: #{$box-color-dark};
   --main-color: #{$main-color-dark};
   --second-color: #{$second-color-dark};
   --third-color: #{$third-color-dark};
+  --fourth-color: #{$fourth-color-dark};
   --text-color: #{$text-color-dark};
   /*============ SHADOW ==========*/
   --shadow-box: #{$shadow-box-dark};
+  --shadow-box-tech: #{$shadow-box-dark-tech};
 }
 
 /*============ BASE ==========*/
@@ -51,7 +56,7 @@ button {
 }
 
 .main {
-  background: var(--background-color) !important;
+  background: var(--background-color);
   font-family: $main-font;
 }
 

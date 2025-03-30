@@ -12,7 +12,7 @@
     padding: 70px 50px;
     border-radius: 15px;
     box-shadow: var(--shadow-box);
-    background: var(--background-color);
+    background: var(--box-color);
   }
 
   &__logo {
@@ -92,9 +92,6 @@
   .home {
     width: auto;
 
-    &__box {
-    }
-
     &__logo {
       margin-bottom: 30px;
       width: 170px; 
@@ -113,6 +110,7 @@
 
     .social {
       margin-bottom: 30px;
+      gap: 5px;
 
       &__item {
         margin: 0 5px;
