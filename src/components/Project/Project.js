@@ -11,9 +11,6 @@ import ProjectBox from "./ProjectBox/ProjectBox";
 
 
 function Project() {
-
-  // console.log(dataProject);
-
   return (
     <>
       <section id="project" className="project section">
@@ -29,11 +26,17 @@ function Project() {
               <div className="project__list">
                 {(dataProject || []).map((item) => (
                   <ProjectBox 
-                    key={item.projectID}
-                    name={item.projectTitle}
-                    technology={item.projectTechnologies}
-                    desc={item.projectDescription}
-                    source={item.projectSource}
+                    key = {item.projectID}
+                    name = {item.projectTitle}
+                    technology = {item.projectTechnologies}
+                    desc = {item.projectDescription}
+                    source = {item.projectSource}
+                    title = {item.projectTitle}
+                    img = {item.projectImage}
+                    team = {item.projectTeamSize}
+                    role = {item.projectRole}
+                    projectFeatures = {item.projectFeatures}
+                    link = {item.projectLink}
                   />
                 ))} 
               </div>

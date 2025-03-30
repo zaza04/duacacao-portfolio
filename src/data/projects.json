@@ -2,26 +2,26 @@
     {
         "projectID": 1,
         "projectTitle": "D2P Food",
-        "projectImage": "",
-        "projectDescription": "Landing Pages. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "projectImage": "project-1.png",
+        "projectDescription": "Landing Pages. View the landing page of a food and beverage business page. A community-driven app designed for local independent businesses, enabling users to engage with their favorite spots, earn rewards through promotions, and foster loyalty as valued members.",
         "projectTechnologies": ["HTML", "CSS", "Javascript"],
         "projectTeamSize": "5",
-        "projectRole": "FullStack Web/Mobile Developer, Mobile Supporter",
+        "projectRole": "UX/UI Designer, Front-End Developer, Landing Page",
         "projectFeatures": [
-            "● ABC",
-            "● ABC",
-            "● ABC",
-            "● ABC",
-            "● ABC"
+            "● Users can create profiles, set preferences, and swipe through potential matches based on mutual interests.",
+            "● Allows users to chat with their matches in real-time using Firebase RealTime Database.",
+            "● Uses location data to show nearby users and potential matches.",
+            "● Sends notifications for new matches, messages, and other important updates.",
+            "● The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
         ],
         "projectSource": "https://github.com/zaza04/d2p-food",
-        "projectLink": "https://www.d2p-food.vercel.app/"
+        "projectLink": "https://d2p-food.vercel.app/"
     }, 
     {
         "projectID": 2,
         "projectTitle": "Coco Portfolio",
-        "projectImage": "",
-        "projectDescription": "My colleagues and I are working together to complete the HoaSen University app, which works on the similar idea as Tinder.",
+        "projectImage": "project-2.png",
+        "projectDescription": "Portfolio personal. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec velit quis metus consectetur rutrum non condimentum sem. Cras dignissim arcu vitae est ullamcorper, in imperdiet nunc commodo. Morbi quis neque a magna pellentesque pharetra.",
         "projectTechnologies": ["HTML", "SASS", "Javascript"],
         "projectTeamSize": "1",
         "projectRole": "UX/UI Designer, Front-End Developer",

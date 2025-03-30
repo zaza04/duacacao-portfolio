@@ -6,7 +6,7 @@
   width: 110px;
   min-height: 100vh;
   position: fixed;
-  z-index: 99;
+  z-index: 10;
   top: 0;
   left: 0;
   border-right: 1px solid $second-color;
@@ -69,7 +69,7 @@
   position: fixed;
   top: 25px;
   left: 25px;
-  z-index: 999;
+  z-index: 10;
   font-size: 22px;
   color: $main-color;
   border: 3px solid $second-color;

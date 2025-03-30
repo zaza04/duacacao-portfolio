@@ -71,6 +71,94 @@
       }
     }
   }
+
+  &__modal {
+    position: fixed;
+    background-color: #00000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    padding: 0 1.5rem;
+    transition: .3s;
+    visibility: hidden;
+    z-index: 11;
+
+    &.modal-active {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    &-content {
+      position: relative;
+      padding: 50px 40px;
+      background-color: #fff;
+      box-shadow: $shadow-box;
+      border-radius: 15px;
+      overflow: hidden;
+      max-width: 500px;
+      overflow: hidden;
+    }
+
+    &-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 32px;
+      @include display-flex();
+      justify-content: center;
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 50%;
+      overflow: hidden;
+      transition: .3s;
+
+      &:hover {
+        background: $second-color;
+      }
+    }
+
+    &-title {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    &-img {
+      width: 400px;
+      height: auto;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+
+    &-feature {
+      p {
+        margin-bottom: 5px;
+        font-size: 15px;
+      }
+    }
+
+    &-link {
+      text-decoration: underline;
+      font-size: 15px;
+      color: $text-color;
+    }
+
+    &-scroll {
+      max-height: 160px;
+      overflow-y: auto;
+      padding-right: 10px;
+
+      li {
+        color: $text-color;
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 575.98px) {
@@ -90,10 +178,36 @@
     }
 
     .read-more {
-      font-size: 15px;
+      font-size: $small-font-size;
 
       span {
         font-size: 15px;
+      }
+    }
+
+    &__modal {
+      &-button {
+        font-size: 28px;
+      }
+
+      &-img {
+        width: 300px;
+      }
+
+      &-feature {
+        p {
+          font-size: $small-font-size;
+        }
+      } 
+
+      &-link {
+        font-size: $small-font-size;
+      }
+
+      &-scroll {
+        li {
+          font-size: $small-font-size;
+        }
       }
     }
   }
